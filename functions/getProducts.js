@@ -16,7 +16,7 @@ exports.handler = async () => {
         id: product.slug.current,
         name: product.title,
         url: `${process.env.URL}/.netlify/functions/getProducts`,
-        price: product.defaultVariant.price,
+        // price: product.defaultProductVariant.price,
         description: product.blurb,
         body: blocksToHtml({ blocks: product.body }),
       };

@@ -6,23 +6,23 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'price',
       title: 'Price',
-      type: 'number'
+      type: 'number',
     },
     {
       name: 'sku',
       title: 'SKU',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'images',
       title: 'Images',
       type: 'array',
-      of: [{ type: 'image' }]
+      of: [{ type: 'image' }],
     },
-  ]
-}
+  ],
+};
